@@ -1,2 +1,2 @@
 # Stopwatch_cordova
-A simple stopwatch made with cordova.
+A simple stopwatch app made with cordova.
