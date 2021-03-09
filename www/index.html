@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./stopwatch.css" />
+</head>
+
+<body>
+    <div class="stopwatch-wrapper">
+        <div id="stopwatch">
+            <div id="timer">
+                <span id="time-string">00:00:00.0</span>
+            </div>
+        </div>
+        <div id='stopwatch-btns'>
+            <button id="startBtn" type="button" class="btn btn-success btn-md" onclick="onStartClick()" title="Start"><i
+                    class="fas fa-play"></i>Start</button>
+            <button id="lapBtn" type="button" class="btn btn-secondary btn-md" onclick="onLapClick()" disabled
+                title="Lap or Reset"><i class="fas fa-redo-alt"></i>Lap</button>
+            <button id="stopBtn" type="button" class="btn btn-danger btn-md" onclick="onStopClick()" disabled
+                title="Stop"><i class="fas fa-stop"></i>Stop</button>
+        </div>
+        <div id="lap-history"></div>
+    </div>
+    <script src="./stopwatch.js" type="application/javascript"></script>
+</body>
+
+</html>
